@@ -1,5 +1,5 @@
 * {
-  background: lightcoral;
+  background: lightyellow;
 }
 
 h1 {
@@ -31,4 +31,9 @@ img {
 
 #column1 {
   width: 50%;
+}
+
+.devour-burg,
+button {
+  background-color: limegreen;
 }
