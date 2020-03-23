@@ -1,0 +1,34 @@
+* {
+  background: lightcoral;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+img {
+  display: block;
+  height: 197px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#notEaten {
+  display: block;
+}
+
+#eaten {
+  display: block;
+}
+
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#column1 {
+  width: 50%;
+}
