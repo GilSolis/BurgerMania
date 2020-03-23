@@ -2,12 +2,12 @@ let orm = require("../config/orm");
 
 let burger = {
   all: function(cb) {
-    orm.all("burger", function(res) {
+    orm.all("burgers", function(res) {
       cb(res);
     });
   },
   create: function(name, cb) {
-    orm.create("burger", ["burger_name", "devoured"], [name, false], cb);
+    orm.create("burgers", ["burger_name", "devoured"], [name, false], cb);
   },
   update: function(objColVals, condition, cb) {
     orm.update("burgers", objColVals, condition, function(res) {
